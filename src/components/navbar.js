@@ -14,15 +14,15 @@ var st=()=>{
         <div>
 
             <div style={{'background-color':"#f0f8ff"}}>
-            <p className="text-red-900 font-bold font-mono text-center">Search Your Laws</p>
+            <p className="text-green-900 font-bold font-mono text-center">Search Your Laws</p>
             </div>
             
 
         <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-white-800 shadow-md">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
                 <a href="#" className="flex items-center">
-                    <img src="https://labourlawadvisor.in/wp-content/uploads/2022/04/cropped-lla-logo_998b3c4e-1536x616.png" className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-                    <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">LLA</span>
+                    <img src={process.env.PUBLIC_URL+"/syl.png"} className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+                    <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Search Your Laws</span>
                 </a>
                 <div className="flex md:order-2">
                     <button type="button" data-collapse-toggle="mobile-menu-3" aria-controls="mobile-menu-3" aria-expanded="false" className="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1">
@@ -53,15 +53,15 @@ var st=()=>{
                     </div>
                     <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                         <li>
-                            <a href="https://labourlawadvisor.in/" className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+                            <a href="#" className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
                         </li>
 
                         <li>
-                            <a href="mailto:almeidawilfred642@gmail.com" className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Contact</a>
+                            <a href="mailto:contact@wilfredalmeida.com" className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Contact</a>
                         </li>
 
                         <li>
-                            <a href="https://www.linkedin.com/in/wilfred-almeida/" className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">About</a>
+                            <a href="https://wilfredalmeida.com" className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">About</a>
                         </li>
 
                     </ul>
